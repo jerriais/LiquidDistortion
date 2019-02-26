@@ -13,14 +13,14 @@
       //  OPTIONS
       /// ---------------------------      
       options                     = options || {};
-      options.stageWidth          = options.hasOwnProperty('stageWidth') ? options.stageWidth : 1920;
-      options.stageHeight         = options.hasOwnProperty('stageHeight') ? options.stageHeight : 1080;
+      options.stageWidth          = options.hasOwnProperty('stageWidth') ? options.stageWidth : 450;
+      options.stageHeight         = options.hasOwnProperty('stageHeight') ? options.stageHeight : 450;
       options.pixiSprites         = options.hasOwnProperty('sprites') ? options.sprites : [];
       options.centerSprites       = options.hasOwnProperty('centerSprites') ? options.centerSprites : false;
       options.texts               = options.hasOwnProperty('texts') ? options.texts : [];
       options.autoPlay            = options.hasOwnProperty('autoPlay') ? options.autoPlay : true;
       options.autoPlaySpeed       = options.hasOwnProperty('autoPlaySpeed') ? options.autoPlaySpeed : [10, 3];
-      options.fullScreen          = options.hasOwnProperty('fullScreen') ? options.fullScreen : true;
+      options.fullScreen          = options.hasOwnProperty('fullScreen') ? options.fullScreen : false;
       options.displaceScale       = options.hasOwnProperty('displaceScale') ? options.displaceScale : [200, 70];
       options.displacementImage   = options.hasOwnProperty('displacementImage') ? options.displacementImage : '';
       options.navElement          = options.hasOwnProperty('navElement')  ?  options.navElement : document.querySelectorAll( '.scene-nav' ); 
