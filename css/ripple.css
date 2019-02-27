@@ -1,9 +1,16 @@
 canvas {
 	display: block;
+	opacity: 10% !important;
 	position: absolute;
-	left: 0;
-	top: 0;
-	border-radius: 10%;
+	left: 266px !important;
+	top: 624px !important;
+	border-radius: 25%;
+	z-index: 8 !important;
+	/* visibility: hidden; */
+}
+
+canvas:hover {
+	display: block;
 }
 
 .slide-wrapper {

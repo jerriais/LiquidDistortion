@@ -4,6 +4,9 @@ header {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
     padding-left: 20px;
+    border-radius: 40px;
+    width: auto;
+    text-align: center;
 }
 
 body {
@@ -27,20 +30,21 @@ main {
 }
 
 .finstagram-post img {
-    border-radius: 12%;
+    border-radius: 25%;
+    z-index: 1;
     transition: border-radius 0.5s;
 }
 
-.finstagram-post img:hover {
+/* .finstagram-post img:hover {
     border-radius: 15%;
-}
+} */
 
 a.photo {
     transition: padding 0.5s; 
-    
+    z-index: 10;
 }
 
-a.photo:hover {
+/* a.photo:hover {
     padding: 10px;
     border-radius: 20%;
-}
+} */
